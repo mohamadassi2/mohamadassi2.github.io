@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ampere privacy</title>
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --fg: #1c1c1e; --muted: #6e6e73; --accent: #0a84ff; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #09090c; --fg: #f2f2f7; --muted: #a1a1a6; --accent: #4ab0ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 28px 0 6px; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); font-size: 15px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ampere privacy</h1>
+  <p class="muted">Ampere is an independent app and is not affiliated with Tesla, Inc.</p>
+
+  <h2>Your car data stays on your iPhone</h2>
+  <p>Trips, charging sessions, costs and settings are stored on your iPhone, and on your Apple Watch and widgets
+  through the app's shared storage. Ampere has no account system and no database of users.</p>
+
+  <h2>Your Tesla sign-in</h2>
+  <p>You sign in on Tesla's own page. Ampere keeps the resulting sign-in in your iPhone's keychain. To finish the
+  sign-in, the one-time code is exchanged with Tesla, either directly by the app or through Ampere's small sign-in
+  service, which only adds Ampere's app credentials and doesn't store or log codes or tokens. You can see or remove
+  Ampere's access at any time in your Tesla account.</p>
+
+  <h2>Your Phone Key</h2>
+  <p>The key that controls your car is created in your iPhone's Secure Enclave and never leaves it. No server has a
+  copy. You can remove it from the car on the car's screen (Controls, then Locks).</p>
+
+  <h2>What goes to Tesla</h2>
+  <p>Ampere talks to Tesla's Fleet API and to your car over Bluetooth to show your car's status and send the
+  commands you choose. Tesla's own privacy policy covers that data. For weather alerts, Ampere asks a public weather
+  service (Open-Meteo) for the forecast at the car's location, without any account or identifier.</p>
+
+  <h2>No ads, no tracking</h2>
+  <p>Ampere has no analytics and no advertising, and it doesn't sell or share your data.</p>
+</main>
+</body>
+</html>
